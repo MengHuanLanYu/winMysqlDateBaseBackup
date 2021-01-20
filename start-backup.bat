@@ -19,7 +19,7 @@ set beginTime=%beginTimeStamp:~0,10%
 
 
 rem param1 databaseIP,param2 userName,param3 userPass,param4 databaseName
-call backup.bat 192.168.13.71 root 159753 db_dev
+call backup.bat 192.168.1.5 root 123456 db_test
 
 >%$% Echo WScript.Echo((new Date()).getTime())
 for /f %%a in ('cscript -nologo -e:jscript %$%') do set endTimeStamp=%%a
