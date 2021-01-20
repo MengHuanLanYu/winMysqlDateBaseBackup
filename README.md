@@ -11,4 +11,4 @@
 
 ## 运行结果
 
-<img src="https://github.com/MengHuanLanYu/winMysqlDateBaseBackup/运行结果.png" />
+<img src="https://github.com/MengHuanLanYu/winMysqlDateBaseBackup/blob/main/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png" />
