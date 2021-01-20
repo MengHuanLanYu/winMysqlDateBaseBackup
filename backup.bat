@@ -34,7 +34,7 @@ for /f "tokens=2 delims==" %%a in ('wmic path win32_operatingsystem get LocalDat
 set today=%t:~0,4%%t:~4,2%%t:~6,2%%t:~8,2%%t:~10,2%
 
 rem basic storage path
-set dirPath=E:/toDay/%today%
+set dirPath=%basePath%toDay\%today%
 if not exist %dirPath%/allSQL md "%dirPath%/allSQL"
 
 
@@ -48,7 +48,7 @@ rem there is a problem with this command
 rem mysqldump -d -r %databaseName% -h%databaseIp% --user=%userName% -password=%userPass% --result-file=%dirPath%/allSQL/allStructuresAndFunctions.sql
 
 rem copy the file to the latest folder
-copy E:\toDay\%today%\allSQL\*.sql E:\toDay\%today%\executable.sql
+copy %dirPath%\allSQL\*.sql %dirPath%\executable.sql
 
 
 :end
