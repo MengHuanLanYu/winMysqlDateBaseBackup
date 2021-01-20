@@ -8,3 +8,7 @@
 1. Windows键+R，调出此窗口，输入compmgmt.msc
 2. 找到任务计划程序，点击右侧创建基本任务
 3. 在弹出的对话框中输入基本的信息如名称、描述、触发时间，在第三步选择启动程序，选中修改好的start-backup.bat文件点击完成即可。*这里可能会出现路径问题，具体原因具体对待*
+
+## 运行结果
+
+<img src="https://github.com/MengHuanLanYu/winMysqlDateBaseBackup/运行结果.png" />
